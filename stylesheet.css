@@ -1,0 +1,373 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 20px;
+    overflow: scroll;
+    background-color: antiquewhite;
+
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    flex-basis: 95%;
+   
+    
+
+}
+.second-div{
+    
+    
+    background-color:#782367;
+    flex-basis: 40%;
+    width: 200px;
+    
+}
+.third-div{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    flex: 50%; 
+}
+
+
+.list2{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-bottom: -7px;
+
+}
+.lastlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+
+.list1{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-around;
+     margin-left: -40px;
+    list-style: none;
+    
+}
+.third-div2{
+				background-color: #9D5499;
+}
+.list2{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-around;
+    
+    list-style: none;
+}
+
+.list1 a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 2px;
+}
+
+.list2 a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.list2 a:hover{
+				color: black;
+				font-size: 26px;
+}
+.list1 a:hover{
+				color: black;
+				font-size: 26px;
+}
+
+.list1 li{
+    
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -15px;
+}
+
+
+#coffee{
+    background-color: #EE4339;
+}
+
+#walk{
+    background-color: #C9303E;
+}
+#topbc{
+    background-color:#46A8B1;
+    
+}
+#topbc:hover{
+    background-color:white;
+    
+    
+}
+
+#walk:hover{
+    background-color:white;
+    color: #C9303E;
+    
+}
+#coffee:hover{
+    background-color:white;
+    color: #EE4339;
+    
+}
+
+
+
+
+
+
+
+
+.second-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 50%;
+}
+.list3 {
+    direction: rtl;
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    
+}
+.list3 li{
+    margin-bottom: 20px;
+    
+    
+}
+
+.list3 a{
+    margin-bottom: 20px;
+    color:white;
+    
+}
+
+.list3 a {
+    text-decoration: none;
+    font-size: 30px;
+    list-style: none;
+
+}
+
+.sec1{
+   margin-top: 250px;
+    
+    
+}
+
+
+#third-info{
+    background-image:url("2121.jpg") ;
+    background-size: cover;
+}
+
+#third-medellin{
+    background-image:url("2122.jpg") ;
+    background-size: cover;
+}
+
+#third-greatcoffee{
+    background-image:url("2125.jpg") ;
+    background-size: cover;
+}
+
+#third-coffeetours{
+    background-image:url("2124.jpg") ;
+    background-size: cover;
+}
+
+
+
+#third-index{
+    background-image:url("2123.jpg") ;
+    background-size: cover;
+}
+
+
+#third-walking{
+    background-image:url("2121.jpg") ;
+    background-size: cover;
+}
+
+.lastdiv{
+				flex-basis: 5%;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.up{
+				transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+img{
+				width: 120px;
+				height: 110px;
+}
+
+.img3{
+				width: 350px;
+				height: 300px;
+}
+
+.cont-1{
+				color: white;
+				width: 250px;
+				font-size: 27px;
+				border: 5px solid white;
+				margin-right: 60px;
+				padding: 40px;
+}
+
+.cont{
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-end;
+			
+							
+}
+
+.contact {
+				background-color: white;
+				height: 70px;
+				width: 200px;
+				border: none;
+}
+
+.content{
+				color: white;
+}
+.tour-travels{
+				display: flex;
+				flex-direction: row;
+				
+				height: 400px;
+				align-items: center;
+				margin-top: 45px;
+}
+
+.walkdiv{
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-end;
+				height: 525px;
+}
+
+.infodiv{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				height: 525px;
+}
+
+.infodiv1, .walk, .med{
+				border:5px solid white;
+				width: 400px;
+				padding: 20px;
+				font-size: 18px;
+}
+.infodiv2{
+				border: none;
+}
+
+.walkdiv{
+				justify-content: space-between;
+}
+
+/* Style the form element with a border around it */
+form {
+  /*border: 4px solid #f1f1f1;*/
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  background-color: rgba(0, 0, 16, 0.08);
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+.medd{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+}
+
+.med1{
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+}
+
+.medimg{
+				height: 48px;
+				width: 48px;
+}
+.medp{
+				margin-bottom: 20px;
+}
